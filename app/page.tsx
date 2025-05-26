@@ -332,13 +332,13 @@ export default function Resume() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold text-primary mb-6">References</h2>
               <div className="bg-muted/50 p-4 rounded-lg">
-                <h3 className="font-semibold">Chantinee Naweewong</h3>
-                <p className="text-muted-foreground">Company Executive</p>
+                <h3 className="font-semibold">Prapond Saechua</h3>
+                <p className="text-muted-foreground">Chief Technology Officer(CTO)</p>
                 <div className="mt-2 space-y-1 text-sm">
-                  <p>68/22 Moo5 BangmuangMai. Muang Samut Prakan, Samut Prakan, Thailand</p>
-                  <p>Tel: 0-2755-6186, 081-868-3146</p>
-                  <p>Email: chantinee@smartss9168.com</p>
-                  <p>Website: http://www.smartss9168.com</p>
+                  <p>Tel: 081-969-1839, 081-607-9388</p>
+                  <p>Email: pond@fazwaz.com</p>
+                  <p>Website: https://www.fazwaz.com</p>
+                  <p>Website: https://dbventures.io/</p>
                 </div>
               </div>
             </CardContent>
