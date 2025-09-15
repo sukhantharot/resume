@@ -50,7 +50,7 @@ export default function Resume() {
                 <div className="flex flex-wrap justify-center gap-6 text-sm">
                   <div className="flex items-center gap-2">
                     <MapPin className="w-4 h-4 text-primary" />
-                    <span>119/67 Supalai bella wicht, Mueang Phuket 83000</span>
+                    <span>Phuket, Thailand</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="w-4 h-4 text-primary" />
@@ -142,7 +142,7 @@ export default function Resume() {
 
                 <div>
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-lg font-semibold">Backend Web Programmer</h3>
+                    <h3 className="text-lg font-semibold">Web Programmer</h3>
                     <Badge variant="secondary">Mar 2018 – Apr 2019</Badge>
                   </div>
                   <p className="text-muted-foreground mb-3">Phuket Jet Tour, Thailand</p>
