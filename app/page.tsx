@@ -272,7 +272,7 @@ export default function Resume() {
                 <div>
                   <h3 className="font-semibold mb-3">Frameworks</h3>
                   <div className="flex flex-wrap gap-2">
-                    {["Laravel", "Next.js", "React.js", "NestJS", "Nuxt (Vue, Vuex)"].map((skill) => (
+                    {["Laravel", "Next.js", "React.js", "NestJS", "Nuxt (Vue, Vuex)", "React Native"].map((skill) => (
                       <Badge key={skill} variant="secondary">
                         {skill}
                       </Badge>
