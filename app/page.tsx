@@ -101,33 +101,55 @@ export default function Resume() {
                     <h3 className="text-lg font-semibold">Junior Full-Stack Developer</h3>
                     <Badge variant="secondary">Oct 2021 – Present</Badge>
                   </div>
-                  <p className="text-muted-foreground mb-3">Fazwaz Phuket, Thailand</p>
+                  <p className="text-muted-foreground mb-3">FazWaz, Phuket, Thailand</p>
                   <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Maintained and developed features on a large-scale Laravel-based web application</li>
                     <li>
-                      Contributed to frontend components using Next.js and worked with GraphQL endpoints for dynamic
-                      data fetching
+                      Maintained and shipped features for a large-scale Laravel-based web application supporting
+                      high-traffic real estate search and listing workflows
                     </li>
                     <li>
-                      Maintained legacy systems built with Yii2 and integrated Elasticsearch for advanced search
-                      capabilities
+                      Built and maintained frontend components in Next.js; integrated GraphQL endpoints for efficient,
+                      dynamic data fetching and UI rendering
                     </li>
                     <li>
-                      Deployed and managed services using Docker and Kubernetes (K8s) across multiple environments
+                      Supported and refactored legacy Yii2 services; improved stability and observability through
+                      systematic debugging and performance tuning
                     </li>
-                    <li>Implemented GitHub Actions for CI/CD automation to streamline the deployment process</li>
                     <li>
-                      Collaborated closely with cross-functional teams to debug, refactor, and improve system
-                      performance
+                      Implemented and optimized Elasticsearch search pipelines (index mappings, analyzers, query
+                      tuning) to improve relevance, filtering accuracy, and response times
+                    </li>
+                    <li>
+                      Deployed and managed services using Docker and Kubernetes (K8s) across multiple environments;
+                      improved reliability through standardized deployment practices
+                    </li>
+                    <li>
+                      Automated CI/CD with GitHub Actions to streamline build, test, and deployment workflows
                     </li>
                   </ul>
-                  <h4>AI & Search Automation</h4>
+                  <h4 className="mt-4 mb-2 font-semibold">AI & Search Automation</h4>
                   <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Designed and implemented AI-assisted search enrichment pipelines to extract structured filters from free-text queries (e.g., location, property attributes, scenery/features) and feed them into backend search filters</li>
-                    <li>Built LLM prompt/contract specifications and JSON schema validation to ensure deterministic outputs for production (stable fields, no hallucinated keys, strict formatting)</li>
-                    <li>Integrated embedding-based similarity search for feature/landmark resolution (typos/near-matches), including confidence gating, deduplication, and top-k selection rules to reduce noisy matches</li>
-                    <li>Developed evaluation sets and regression checks for AI extraction quality (precision/recall-style checks, edge-case coverage, consistency across prompts)</li>
-                    <li>Collaborated with product and data teams to iterate on extraction rules, improve search UX, and reduce manual query refinement for end users</li>
+                    <li>
+                      Designed and implemented AI-assisted search enrichment pipelines to extract structured filters
+                      from free-text queries (e.g., location, property attributes, scenery/features) and feed them into
+                      backend search filters
+                    </li>
+                    <li>
+                      Built LLM prompt/contract specifications and JSON schema validation to ensure deterministic
+                      outputs for production (stable fields, no hallucinated keys, strict formatting)
+                    </li>
+                    <li>
+                      Integrated embedding-based similarity search for feature/landmark resolution (typos/near-matches),
+                      including confidence gating, deduplication, and top-k selection rules to reduce noisy matches
+                    </li>
+                    <li>
+                      Developed evaluation sets and regression checks for AI extraction quality (precision/recall-style
+                      checks, edge-case coverage, consistency across prompts)
+                    </li>
+                    <li>
+                      Collaborated with product and data teams to iterate on extraction rules, improve search UX, and
+                      reduce manual query refinement for end users
+                    </li>
                   </ul>
                 </div>
 
@@ -140,9 +162,32 @@ export default function Resume() {
                   </div>
                   <p className="text-muted-foreground mb-3">Sedna Asia Phuket, Thailand</p>
                   <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Designed and developed web applications</li>
-                    <li>Conducted tests on software</li>
-                    <li>Performed repairs, fixes bugs and maintenance procedures on system</li>
+                    <li>
+                      Designed and developed a comprehensive yacht/charter management system for booking, pricing, and
+                      operations management
+                    </li>
+                    <li>
+                      Built booking management modules to handle reservations, scheduling, and availability tracking for
+                      yacht charters
+                    </li>
+                    <li>
+                      Implemented pricing and quotation management features for generating price lists and quotes for
+                      clients
+                    </li>
+                    <li>
+                      Developed crew management system to track crew assignments, schedules, and personnel information
+                    </li>
+                    <li>
+                      Created invoicing and receipt generation modules for financial transactions and payment processing
+                    </li>
+                    <li>
+                      Integrated payment and installment plan features to support flexible payment options for customers
+                    </li>
+                    <li>
+                      Built agent and operator management system for commission tracking and revenue collection from
+                      third-party partners
+                    </li>
+                    <li>Conducted software testing, debugging, and maintenance to ensure system reliability and performance</li>
                   </ul>
                 </div>
 
@@ -155,9 +200,31 @@ export default function Resume() {
                   </div>
                   <p className="text-muted-foreground mb-3">Phuket Jet Tour, Thailand</p>
                   <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Designed and developed web applications</li>
-                    <li>Conducted tests on software</li>
-                    <li>Performed repairs, fixes bugs and maintenance procedures on system</li>
+                    <li>
+                      Designed and developed a comprehensive tour management system supporting inbound, outbound, and
+                      domestic tour operations
+                    </li>
+                    <li>
+                      Built dual-channel booking platform supporting both B2B (business-to-business) and B2C
+                      (business-to-consumer) sales models
+                    </li>
+                    <li>
+                      Implemented tour package management features for creating, pricing, and managing various tour
+                      products across different markets
+                    </li>
+                    <li>
+                      Developed booking and reservation system to handle tour bookings, customer information, and
+                      itinerary management
+                    </li>
+                    <li>
+                      Created agent portal and customer portal with differentiated access levels and pricing structures
+                      for B2B and B2C channels
+                    </li>
+                    <li>
+                      Integrated payment processing and invoicing modules to support multiple payment methods and
+                      commission tracking for B2B partners
+                    </li>
+                    <li>Conducted software testing, debugging, and maintenance to ensure system reliability and performance</li>
                   </ul>
                 </div>
 
