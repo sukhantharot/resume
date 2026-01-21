@@ -214,7 +214,7 @@ export default function Resume() {
               <div>
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-lg font-semibold">Full-Stack Developer</h3>
-                  <Badge variant="outline">Jun 2023 – Mar 2025</Badge>
+                  <Badge variant="outline">Jun 2023 – Dec 2025</Badge>
                 </div>
                 <p className="text-muted-foreground mb-3">Qashup, Bangkok, Thailand</p>
                 <ul className="list-disc list-inside space-y-1 text-sm">
@@ -283,7 +283,7 @@ export default function Resume() {
                 <div>
                   <h3 className="font-semibold mb-3">Languages</h3>
                   <div className="flex flex-wrap gap-2">
-                    {["PHP", "JavaScript", "Classic ASP", "Node.js"].map((skill) => (
+                    {["PHP", "JavaScript", "TypeScript", "Node.js", "Classic ASP", "GoLang"].map((skill) => (
                       <Badge key={skill} variant="secondary">
                         {skill}
                       </Badge>
