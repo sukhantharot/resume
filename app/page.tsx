@@ -121,6 +121,14 @@ export default function Resume() {
                       performance
                     </li>
                   </ul>
+                  <h4>AI & Search Automation</h4>
+                  <ul className="list-disc list-inside space-y-1 text-sm">
+                    <li>Designed and implemented AI-assisted search enrichment pipelines to extract structured filters from free-text queries (e.g., location, property attributes, scenery/features) and feed them into backend search filters</li>
+                    <li>Built LLM prompt/contract specifications and JSON schema validation to ensure deterministic outputs for production (stable fields, no hallucinated keys, strict formatting)</li>
+                    <li>Integrated embedding-based similarity search for feature/landmark resolution (typos/near-matches), including confidence gating, deduplication, and top-k selection rules to reduce noisy matches</li>
+                    <li>Developed evaluation sets and regression checks for AI extraction quality (precision/recall-style checks, edge-case coverage, consistency across prompts)</li>
+                    <li>Collaborated with product and data teams to iterate on extraction rules, improve search UX, and reduce manual query refinement for end users</li>
+                  </ul>
                 </div>
 
                 <Separator />
