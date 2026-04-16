@@ -45,7 +45,7 @@ export default function Resume() {
             <CardContent className="p-8">
               <div className="text-center space-y-4">
                 <h1 className="text-4xl font-bold text-primary">Kittipan Sukhantharot</h1>
-                <p className="text-xl text-muted-foreground">Full-Stack Developer</p>
+                <p className="text-xl text-muted-foreground">Senior Software Engineer | Specialized in AI Search & Data Platforms</p>
 
                 <div className="flex flex-wrap justify-center gap-6 text-sm">
                   <div className="flex items-center gap-2">
